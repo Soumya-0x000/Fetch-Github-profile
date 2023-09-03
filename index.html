@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://icons8.com/icon/m4KXolEHk9Oh/spongebob-squarepants">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="body">
+
+    <div class="nav-bar" id="nav-bar">
+        <div class="toggle-btn">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="toggle-label">
+                <span class="toggle-ball">
+                    <i class='bx bxs-sun bx-spin' id="sun"></i>
+                </span>
+            </label>
+        </div>
+    </div>
+
+    <div class="container" id="container">
+        <h1 class="moving-border">Search Github Profile</h1>
+
+        <div class="search">
+            <input type="text" id="searchInput" name="searchInput" placeholder="Enter your user name">
+            <button class="primary-btn"  id="search-btn">Search</button>
+        </div>
+        
+        <div id="holder"></div>
+        <div id="loading"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
