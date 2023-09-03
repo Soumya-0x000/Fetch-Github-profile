@@ -77,7 +77,6 @@ const generatedProfile = (profile) => {
 };
 
 const fetchProfile = async () => {
-    // const userName = 'Soumya-0x000'; 
     const userName = searchInputEl.value; 
 
     loadingEl.innerText = "Loading....."
